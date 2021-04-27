@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d8cd48ad6da200d7e825f35c56f22a9b") format("truetype"),
+url("./flaticon.woff?d8cd48ad6da200d7e825f35c56f22a9b") format("woff"),
+url("./flaticon.woff2?d8cd48ad6da200d7e825f35c56f22a9b") format("woff2"),
+url("./flaticon.eot?d8cd48ad6da200d7e825f35c56f22a9b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d8cd48ad6da200d7e825f35c56f22a9b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "pencil": "\f101",
+    "layers": "\f102",
+    "black-settings-button": "\f103",
+    "portfolio-black-symbol": "\f104",
+    "user": "\f105",
+    "waxom": "\f106",
+    "heart": "\f107",
+    "catte": "\f108",
+    "chat-comment-oval-speech-bubble-with-text-lines": "\f109",
+);
+
+.flaticon-pencil:before {
+    content: map-get($flaticon-map, "pencil");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-black-settings-button:before {
+    content: map-get($flaticon-map, "black-settings-button");
+}
+.flaticon-portfolio-black-symbol:before {
+    content: map-get($flaticon-map, "portfolio-black-symbol");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-waxom:before {
+    content: map-get($flaticon-map, "waxom");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-catte:before {
+    content: map-get($flaticon-map, "catte");
+}
+.flaticon-chat-comment-oval-speech-bubble-with-text-lines:before {
+    content: map-get($flaticon-map, "chat-comment-oval-speech-bubble-with-text-lines");
+}

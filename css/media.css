@@ -1,0 +1,93 @@
+@media(max-width:575.98px){
+    .navbar-toggler i {
+        color: white;
+        font-size: 20px;
+        
+    }
+
+.navbar-toggler:focus {
+	
+ box-shadow: none; 
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	line-height: 40px;
+    padding: 0;
+	
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    background-color: #736357;
+    color: white;
+}
+.navbar-nav {
+    margin-top: 15px;
+	text-align: center;
+	background-color: #211b19;
+    
+}
+.bg.navbar-expand-lg .navbar-nav .nav-link {
+	line-height: 40px;
+}
+.banner_content h2 {
+	
+	font-size: 23px;
+	
+}
+.banner_content h3 {
+	
+	font-size: 40px;
+    padding-bottom: 7px;
+    line-height: 45px;
+}
+.banner_content p {
+	
+	padding: 0 9px;
+	padding-bottom: 46px;
+}
+
+.banner_text {
+	height: 80vh;
+}
+
+
+#banner {
+	
+	height: 80vh;
+	
+}
+#service {
+	padding-top: 40px;
+}
+.service_item {
+    margin-bottom: 60px;
+}
+#project {
+	padding-top: 35px;
+}
+.project-head p {
+
+	padding: 0;
+}
+.nav-pills .nav-link {
+	
+	padding: 9px 13px;
+	margin-bottom: 9px;
+}
+#video {
+	
+	height: 500px;
+    margin-top: 55px;
+
+}
+.video-content h3 {
+	
+	font-size: 28px;
+	padding-top: 30px;
+	
+	line-height: 33px;
+}
+.video-content p {
+
+	padding-top: 5px;
+}
+
+}

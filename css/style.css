@@ -1,0 +1,766 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    line-height: 0.8;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-right: 0;
+    padding-left: 30px;
+    line-height: 120px;
+    transition: all linear .5s;
+	
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #c7b299;
+}
+.navbar {
+    z-index: 9999;
+    transition: all linear .5s;
+    
+}
+.bg {
+    /* background-image: linear-gradient(to right, #211b19 , #4e3427); */
+    background-color: #4e3427;
+    transition: all linear .5s;
+    
+
+}
+.bg.navbar-expand-lg .navbar-nav .nav-link {
+	
+	line-height: 80px;
+	
+}
+/*============ Banner part css goes here ==============*/
+#banner {
+    background: url(../Images/Waxom_banner.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.banner_overly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, .7);
+}
+.banner_text {
+    height: 100vh;
+}
+.banner_content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #ffffff;
+    padding-bottom: 14px;
+}
+.banner_content h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #ffffff;
+    padding-bottom: 19px;
+}
+.banner_content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0 74px;
+    padding-bottom: 46px;
+}
+.banner_content a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0 37px;
+    background-color: #998675;
+    padding-top: 21px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #736357;
+    border-radius: 3px;
+}
+
+/*============ Service part css goes here ==============*/
+
+#service {
+    padding-top: 80px;
+    
+}
+
+.service_item i {
+    font-size: 49px;
+    color: #555555;
+    transition: all linear .5s;
+    
+}
+.service_item h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #555555;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    transition: all linear .5s;
+
+}
+.service_item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+    line-height: 24px;
+    position: relative;
+    transition: all linear .5s;
+    
+
+}
+.service_item p::before {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 65px;
+    transition: all linear .5s;
+    
+}
+.service_item:hover i {
+    color: #c7b299;
+}
+.service_item:hover h2 {
+    color: #c7b299;
+}
+.service_item:hover p::before {
+    background-color: #c7b299;
+}
+/*============ Project part css goes here ==============*/
+.project-tab {
+    padding-bottom: 25px;
+    padding-top: 17px;
+}
+#project {
+    padding-top: 110px;
+}
+.project-head h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #8c8c8c;
+    padding-bottom: 12px;
+}
+
+.project-head p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 0 223px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: ffffff;
+	background-color: #998675;
+}
+.nav-pills .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+    text-transform: capitalize;
+	border: 1px solid #ebebeb;
+    padding: 9px 20px;
+    margin: 0 5px;
+
+}
+.project-text {
+    padding: 30px 0 27px 28px ;
+    transition: all linear .5s;
+    background-color: #fbfaf8;
+}
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #c7b299;
+    padding-bottom: 6px;
+    transition: all linear .5s;
+    
+}
+.project-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #d1d1d1;
+    font-weight: 300;
+    transition: all linear .5s;
+}
+.project-img {
+    position: relative;
+    overflow: hidden ;
+
+}
+.project-overly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, .7);
+    opacity: 0;
+    transition: all linear .5s;
+}
+.project-overly i {
+    margin: 0 14px;
+    color: #ffffff;
+    font-size: 25px;
+    transition: all linear .5s;
+}
+.project-overly i:hover {
+    color: #c7b299;
+}
+.project-item:hover .project-overly {
+    opacity: 1;
+}
+.project-img img  {
+    transition: all linear .5s;
+}
+.project-item:hover .project-img img {
+    transform: scale(1.3);
+}
+.project-item:hover .project-text {
+    background-color: #362f2d;
+}
+.project-item:hover .project-text h3 {
+    color: #ffffff;
+}
+.project-item:hover .project-text p {
+    color: #c7b299;
+}
+.project_item_main {
+    padding-bottom: 25px;
+}
+.load-button a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0 37px;
+    background-color: #998675;
+    padding-top: 21px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #736357;
+    border-radius: 3px;
+    
+}
+/*============== video part css goes here ===========================*/
+#video {
+    background: url(../Images/v.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    margin-top: 100px;
+    position: relative;
+
+}
+.video-overly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, .50);
+}
+.video-content i {
+    font-size: 70px;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(91, 91, 97, .55);
+    line-height: 100px;
+   
+    
+}
+.video-content  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 44px;
+
+}
+.video-content  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 0 4px;
+    padding-top: 10px;
+}
+/*================== counter part goes here ====================*/
+#counter {
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(to right, #211b19 , #4e3427);
+}
+.counter-item i {
+    font-size: 45px;
+    color: #c7b299;
+
+}
+.counter-item h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-top: 11px;
+    
+}
+.counter-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #c7b299;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+/*============ Blog part css goes here ==============*/
+#blog {
+    padding-top: 91px;
+}
+.blog-main {
+    position: relative;
+    padding-top: 22px;
+}
+.date-main {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.date-main{
+    width: 50px;
+    height: 60px;
+    z-index: 99999;
+}
+.date {
+    width: 100%;
+    height: 35px;
+    background-color: #363636;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.date-month {
+    width: 100%;
+    height: 25px;
+    background-color: #252525;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.date p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+.date-month p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+}
+#blog .project-text {
+    background-color: #ffffff;
+}
+#blog .project-text h3 {
+    color: #555555;
+}
+#blog .project-text p {
+    line-height: 22px;
+}
+#blog .project-text a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #c7b299;
+    font-size: 14px;
+}
+#blog .project-text a i {
+    
+    padding-left: 9px;
+    color: #c7b299;
+    font-size: 14px;
+}
+/* .blog-main .project-item:hover .date {
+    background-color: #c7b299;
+}
+.blog-main .project-item:hover .date-month {
+    background-color: #a48d72;
+}
+#blog .project-item:hover .project-text{
+    background-color: #362f2d;
+}
+#blog .project-item:hover .project-text h3 {
+    color: #c7b299;
+}
+#blog .project-item:hover .project-text p {
+    color: #ffffff;
+}
+#blog .project-item:hover .project-text a {
+    color: #c7b299;
+} */
+#blog .project-item:hover .project-overly {
+    opacity: 0;
+}
+#blog .project-item:hover .project-img img {
+    transform: scale(1);
+}
+.project-item {
+    margin: 0 12px;
+}
+.slick-center .project-item .date {
+    background-color: #c7b299;
+}
+.slick-center .project-item .date-month {
+    background-color: #a48d72;
+}
+.slick-center .project-item .project-text{
+    background-color: #362f2d!important;
+}
+.slick-center .project-item .project-text h3 {
+    color: #c7b299!important;
+}
+.slick-center .project-item .project-text p {
+    color: #ffffff;
+}
+.slick-center .project-item .project-text a {
+    color: #c7b299;
+}
+.slick-center .project-item .project-img img {
+    transform: scale(1.3);
+}
+.slick-center .project-item .project-overly {
+    opacity: 1;
+}
+/*============ footer part css goes here ==============*/
+footer {
+    padding-top: 80px;
+    margin-top: 61px;
+    background-color: #191919;
+}
+.footer-first {
+    padding-bottom: 81px;
+}
+.footer-item p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #555555;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 22px;
+    padding-bottom: 4px;
+
+}
+.footer-item a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #d1d1d1;
+    font-size: 14px;
+
+
+}
+.footer-item a i{
+    padding-left: 9px;
+    color: #d1d1d1;
+    font-size: 14px;
+
+}
+.post-head {
+    padding-top: 28px;
+
+}
+.post-main h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    padding-bottom: 26px;
+    
+
+}
+.post-item h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #555555;
+    font-size: 14px;
+    padding: 0 42px 0 0 ;
+    line-height: 20px;
+    position: relative;
+
+}
+.post-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #363636;
+    font-size: 12px;
+    
+
+}
+.post-item h3::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #252525;
+    bottom: -21px;
+    left: 0;
+}
+.post-main-second {
+    padding-top: 32px;
+}
+.post-main-second .post-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 12px;
+
+}
+.post-main-second .post-item h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #c7b299;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 42px 0 0 ;
+
+}
+.post-main-third .post-item-third h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #c7b299;
+    font-size: 14px;
+    padding: 0 42px 0 0 ;
+    line-height: 20px;
+
+}
+.post-main-third .post-item-third p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #363636;
+    font-size: 12px;
+
+}
+.post-main-third {
+    padding-top: 32px;
+}
+/*============ footer twitter part css goes here ==============*/
+
+.twitter-item-first h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #555555;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 3px;
+}
+.twitter-item-first h5 a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #00bff3;
+    font-size: 14px;
+    
+    
+}
+.twitter-item-first p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #363636;
+    font-size: 12px;
+    position: relative;
+
+}
+.twitter-item-first p::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #252525;
+    bottom: -26px;
+    left: 0;
+
+}
+.twitter-main-second {
+    padding-top: 22px;
+}
+.twitter-item-third h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #555555;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.twitter-item-third h5 a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #959595;
+    font-size: 14px;
+    
+    
+}
+.twitter-item-third p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #363636;
+    font-size: 12px;
+    
+    
+}
+.twitter-main-third {
+    margin-top: 21px;
+}
+
+
+.dribble-2 {
+    padding-top: 20px;
+}
+/*============ footer-last part css goes here ==============*/
+.footer-last {
+    background-color: #111111;
+    padding-top: 46px;
+    padding-bottom: 52px;
+}
+.footer-last-item h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #555555;
+    font-size: 13px;
+    display: inline-block;
+
+}
+.footer-last-item span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #959595;
+    font-size: 13px;
+    text-transform: capitalize;
+    display: inline-block;
+
+}
+.footer-last-item h2{
+    
+    
+    font-size: 22px;
+    
+    display: inline-block;
+
+}
+.footer-last-item p {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #959595;
+    font-size: 13px;
+
+}
+.footer-last-item h3 {
+    font-size: 22px;
+    display: inline-block;
+}
+.footer-last-item h5 {
+    font-size: 22px;
+    display: inline-block;
+}
+.footer-last-item h4 {
+    
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #c7b299;
+    text-transform: uppercase;
+}
+.footer-last-item h6 {
+    
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #959595;
+    
+}
+
+
+
+.footer-last-item-second h2 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #555555;
+
+}
+.footer-last-item-second p {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #959595;
+
+}
+.footer-last-item-second span {
+    font-size: 22px;
+    display: inline-block;
+
+}
+.footer-last-item-second h5 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #555555;
+
+}
+.footer-last-item-second h6 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #959595;
+
+}
+/*============ Banner part css goes here ==============*/
+/*============ Banner part css goes here ==============*/
