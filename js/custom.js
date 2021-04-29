@@ -20,6 +20,26 @@ $('.blog').slick({
     arrows:false,
     centerMode:true,
     centerPadding:false,
+    responsive: [
+      {
+        breakpoint: 481,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
   });
 
   $(window).scroll(function (){
